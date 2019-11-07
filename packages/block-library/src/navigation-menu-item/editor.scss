@@ -67,7 +67,6 @@
 	&:not(.is-editing) {
 		font-family: inherit;
 		font-size: $text-editor-font-size;
-		font-weight: bold;
 	}
 
 	&.is-editing .components-text-control__input {
@@ -82,9 +81,9 @@
 
 	&.is-editing,
 	&.is-selected {
-		box-shadow: 0 0 1px $light-gray-900 inset;
-		border-radius: 4px;
 		min-width: 30px;
+		font-family: inherit;
+		font-size: $text-editor-font-size;
 	}
 }
 
